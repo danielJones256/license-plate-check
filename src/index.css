@@ -5,7 +5,8 @@
 }
 
 html {
-  background: url("Group 10 (13).svg") no-repeat center center fixed;
+  background: url("https://homepages.cae.wisc.edu/~ece533/images/airplane.png")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
