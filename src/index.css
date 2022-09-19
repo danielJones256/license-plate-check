@@ -5,7 +5,7 @@
 }
 
 html {
-  background: url("../Group\ 10\ \(13\).svg") no-repeat center center fixed;
+  background: url("Group 10 (13).svg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,6 +61,11 @@ form {
   text-transform: uppercase;
   caret-color: transparent;
 }
+
+/* .input:hover {
+  background: #f6d4b0;
+  transition: all 1s ease-in-out;
+} */
 
 ::selection {
   background: #f6d4b0;
