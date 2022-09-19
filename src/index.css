@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url("../Group\ 10\ \(13\).svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 1400px 750px;
+  background-color: #f6ece1;
+}
+
+.all {
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.title {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #154b6f;
+  margin: 0 40px;
+  white-space: nowrap;
+}
+
+form {
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+  border: none;
+  background-image: none;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 400px;
+  font-weight: 600;
+  color: #ef4d24;
+  font-family: "Barlow Condensed";
+  width: 1200px;
+  text-transform: uppercase;
+  caret-color: transparent;
+}
+
+::selection {
+  background: #f6d4b0;
+}
+
+input:focus,
+textarea {
+  outline: none !important;
+}
+
+p {
+  border: none;
+  background-image: none;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-transform: uppercase;
+  color: #154b6f;
+}
+
+.bottom-dots {
+  margin-left: 95px;
+  margin-right: 95px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden-btn {
+  display: none;
+}
