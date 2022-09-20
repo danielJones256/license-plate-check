@@ -62,10 +62,10 @@ form {
   caret-color: transparent;
 }
 
-/* .input:hover {
-  background: #f6d4b0;
+.input:hover {
   transition: all 1s ease-in-out;
-} */
+  cursor: auto;
+}
 
 ::selection {
   background: #f6d4b0;
